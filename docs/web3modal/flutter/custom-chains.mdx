@@ -1,0 +1,17 @@
+# Custom Chains
+
+:::caution
+**The Web3Modal SDK for Flutter is currently in Alpha and is not production-ready**.
+
+It's public API and associated documentation may still see significant and breaking changes.
+:::
+
+## Custom Chain Selection
+
+You can select your own chain by calling the `setSelectedChain` method on the `W3MService` object.
+
+The chain must be EVM compatible.
+
+A list of preset chains that are available to you can be accessed at `ChainData.chainPresets`.
+
+If you modify the presets, it will be reflected in the `W3MNetworkSelect` widget.

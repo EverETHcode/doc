@@ -1,0 +1,68 @@
+import Wrapper from '../components/Home/Wrapper'
+import w3iLogo from '../../static/assets/home/web3inboxLogo.png'
+import w3wLogo from '../../static/assets/home/web3walletLogo.png'
+import walletNative from '../../static/assets/home/walletNative.png'
+
+# Introduction
+
+:::caution
+Web3Inbox is in alpha development
+:::
+
+The Web3Inbox SDK provides a toolkit for integrating web3 notification features into dapps. It utilizes WalletConnect's Notify API to support app notifications, enhancing user interaction and feature availability.
+
+Notify is designed for web3 scenarios, providing event-based notifications for activities like DAO votes, DeFi transaction alerts, and updates for NFT holders.
+
+## QuickStart
+
+<Wrapper
+  type="large"
+  style={{
+    marginTop: '2rem'
+  }}
+  items={[
+    {
+      name: 'Core Components',
+      description: 'For a fully-customized Web3Inbox experience.',
+      icon: w3iLogo,
+      href: './core-components/about'
+    }
+  ]}
+/>
+
+## Use Cases
+
+### Dapp Notifications
+
+Dapps can send web3-native messages directly to wallets with device push notifications. Reach users instantly with real-time notifications such as DAO proposals, token launches, NFT drops, and more.
+
+## Features
+
+Some of the key features of the Web3Inbox SDK include:
+
+- **E2E encryption:** Messages that run through the WalletConnect protocol are end-to-end encrypted, always.
+- **Device push notifications:** Push notifications to the user's native wallet.
+- **Notifications history:** Messages are stored and can be accessed from any device.
+- **Spam protection/subscription control.**
+
+## How do users receive notifications?
+
+Users can subscribe to and receive notifications in several ways:
+- Natively in their wallet if the wallet supports the Web3Inbox SDK.
+  - You can also test this with one of our sample wallets:
+    - [iOS sample wallet](https://testflight.apple.com/join/09bTAryp)
+    - [Android sample wallet](https://appdistribution.firebase.dev/i/d2c86e879abd5a86)
+- In your app's frontend using [Core Components](core-components/about)
+- In [Web3Inbox.com](https://app.web3inbox.com) App
+
+## Getting Started
+
+Web3Inbox can be added to your app in a few steps:
+
+- [Setup your domain](setup) to send authenticated notifications.
+- Optionally, allow users to subscribe to notifications in your app frontend with [core components](core-components/about).
+- Finally, implement [sending notifications](sending-notifications) from your backend.
+
+## Try it out
+
+See the [demo section](demo) for sample apps and the Web3Inbox universal inbox app.
