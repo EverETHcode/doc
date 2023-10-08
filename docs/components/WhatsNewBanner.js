@@ -9,8 +9,8 @@ export const CloudBanner = ({ title, description, href }) => {
         <h2>{title}</h2>
         <p>{description}</p>
       </div>
-      <Link to={href}>
-        Learn More
+      <Link to={href} target="_blank">
+        Apply
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
