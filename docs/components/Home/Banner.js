@@ -7,9 +7,9 @@ const Banner = () => {
   return (
     <div className={styles.banner__container}>
       <div className={styles.banner__text}>
-        <h2>WalletConnect Docs</h2>
+        <h2>Benkei Docs</h2>
         <p>
-          WalletConnect provides developer toolkits empowering you to build engaging web3
+          Benkei provides developer toolkits empowering you to build engaging web3
           experiences.
         </p>
         <Link to="/web3modal/about">
