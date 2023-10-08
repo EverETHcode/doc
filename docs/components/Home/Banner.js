@@ -7,10 +7,9 @@ const Banner = () => {
   return (
     <div className={styles.banner__container}>
       <div className={styles.banner__text}>
-        <h2>Benkei Docs</h2>
+        <h2>EverETH Docs</h2>
         <p>
-          Benkei provides developer toolkits empowering you to build engaging web3
-          experiences.
+          Becoming a leading innovator and creator of decentralized applications (dApps) and protocols on the Ethereum blockchain.
         </p>
         <Link to="/web3modal/about">
           Get started
@@ -30,7 +29,7 @@ const Banner = () => {
         </Link>
       </div>
       <div className={styles.banner__backdrop} />
-      <img className={styles.banner__image} src={logo} alt="WalletConnect Logo" />
+      <img className={styles.banner__image} src={logo} alt="EverETH Logo" />
     </div>
   )
 }
