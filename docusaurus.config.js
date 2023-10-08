@@ -76,7 +76,7 @@ const config = {
           {
             title: 'Docs',
             items: [
-              {
+              /* {
                 label: 'Web3Modal SDK',
                 to: '/web3modal/about'
               },
@@ -87,7 +87,7 @@ const config = {
               {
                 label: 'Web3Inbox SDK',
                 to: '/web3inbox/about'
-              }
+              } */
             ]
           },
           {

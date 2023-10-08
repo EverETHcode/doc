@@ -11,7 +11,7 @@ const Banner = () => {
         <p>
           Becoming a leading innovator and creator of decentralized applications (dApps) and protocols on the Ethereum blockchain.
         </p>
-        <Link to="/web3modal/about">
+        {/* <Link to="/web3modal/about">
           Get started
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,7 @@ const Banner = () => {
               d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"
             />
           </svg>
-        </Link>
+        </Link> */}
       </div>
       <div className={styles.banner__backdrop} />
       <img className={styles.banner__image} src={logo} alt="EverETH Logo" />
