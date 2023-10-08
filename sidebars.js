@@ -15,14 +15,14 @@ module.exports = {
       label: 'Introduction',
       className: 'menu_outer_list',
       collapsible: false,
-      items: ['readme', 'EverETH']
+      items: ['readme'/* , 'EverETH' */]
     },
-    {
+    /* {
       type: 'category',
       label: 'Products',
       className: 'menu_outer_list',
       collapsible: false,
       items: ['Reflect', 'Stake', 'Marketplace', 'Yield']
-    },
+    }, */
   ]
 }
