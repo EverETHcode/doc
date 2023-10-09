@@ -1,5 +1,5 @@
 import React from 'react'
-import wcGlassImage from '../../static/assets/wc-logo-glass-full.webp'
+import wcGlassImage from '../../static/assets/3d-dev.webp'
 import Link from '@docusaurus/Link'
 
 export const CloudBanner = ({ title, description, href }) => {
