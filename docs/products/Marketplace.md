@@ -2,6 +2,8 @@
 
 dApp currently under development.
 
+<hr className="home__divider" />
+
 ## Overview
 
 EverETH Marketplace is a decentralized digital asset marketplace where users can buy, sell, and trade various digital assets and collectibles. 
