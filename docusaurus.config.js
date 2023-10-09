@@ -6,15 +6,15 @@ const lightCodeTheme = require('prism-react-renderer/themes/github')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'WalletConnect Docs',
-  tagline: 'WalletConnect is an open protocol to communicate securely between Dapps and Wallets.',
+  title: 'EverETH Docs',
+  tagline: 'Innovator and creator of decentralized applications (dApps) and protocols on the Ethereum blockchain.',
   url: 'https://docs.evereth.net/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'walletconnect',
-  projectName: 'walletconnect-docs',
+  organizationName: 'evereth',
+  projectName: 'evereth-docs',
   staticDirectories: ['static'],
   scripts: [
     {
@@ -33,7 +33,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,
-          editUrl: 'https://github.com/WalletConnect/walletconnect-docs/blob/main/',
+          editUrl: 'https://github.com/EverETHcode/doc/',
           remarkPlugins: [
             [
               require('@docusaurus/remark-plugin-npm2yarn'),
@@ -111,8 +111,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                href: 'https://medium.com/walletconnect'
+                label: 'Website',
+                href: 'https://evereth.net'
               },
               {
                 label: 'GitHub',
@@ -155,7 +155,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          '🎉 Web3Modal v3 is out. <a rel="noopener noreferrer" href="/web3modal/about">Learn more</a>. 🎉',
+          '🎉 EverETH presale is now live. <a rel="noopener noreferrer" href="/Presale">Learn more</a>. 🎉',
         backgroundColor: '#3182ce',
         textColor: '#fff',
         isCloseable: true
