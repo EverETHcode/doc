@@ -1,4 +1,4 @@
-# EverETH Stake
+## EverETH Stake
 
 dApp currently under development.
 

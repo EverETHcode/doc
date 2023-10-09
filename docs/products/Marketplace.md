@@ -1,4 +1,4 @@
-# EverETH Marketplace
+## EverETH Marketplace
 
 dApp currently under development.
 
