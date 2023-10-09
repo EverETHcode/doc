@@ -150,7 +150,7 @@ const config = {
         appId: 'KEO8ND6AUT',
         apiKey: '5921626237dc9040afc258af25d4e77d',
         indexName: 'walletconnect',
-        contextualSearch: true
+        contextualSearch: false
       },
       announcementBar: {
         id: 'support_us',
