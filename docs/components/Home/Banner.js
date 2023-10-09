@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../../static/assets/wc-logo-glass-big.webp'
+import logo from '../../../static/assets/wc-logo-glass.png'
 import styles from '../../../src/css/banner.module.css'
 import Link from '@docusaurus/Link'
 
