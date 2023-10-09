@@ -146,12 +146,7 @@ const config = {
           }
         ]
       },
-      algolia: {
-        appId: 'KEO8ND6AUT',
-        apiKey: '5921626237dc9040afc258af25d4e77d',
-        indexName: 'walletconnect',
-        contextualSearch: false
-      },
+      
       announcementBar: {
         id: 'support_us',
         content:
