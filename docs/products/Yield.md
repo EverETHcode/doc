@@ -1,4 +1,4 @@
-# EverETH Yield (Under Development)
+# EverETH Yield
 
 dApp currently under development.
 

@@ -2,6 +2,10 @@
 
 EverETH Reflect is an exciting token that pays holders rewards in ETH! It accomplishes this through a unique reward system.
 
+https://evereth.app/
+
+<hr className="home__divider" />
+
 ### How It Works
 
 - BEP20 token traded on PancakeSwap
