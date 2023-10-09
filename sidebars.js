@@ -19,17 +19,17 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'EETH',
-      className: 'menu_outer_list',
-      collapsible: false,
-      items: ['EETH/Token', 'EETH/Presale']
-    },
-    {
-      type: 'category',
       label: 'Products',
       className: 'menu_outer_list',
       collapsible: false,
       items: ['products/Reflect', 'products/Stake', 'products/Marketplace', 'products/Yield']
+    },
+    {
+      type: 'category',
+      label: 'EETH',
+      className: 'menu_outer_list',
+      collapsible: false,
+      items: ['EETH/Token', 'EETH/Presale']
     },
   ]
 }
