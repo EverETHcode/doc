@@ -1,61 +1,74 @@
-import React from 'react'
-import clsx from 'clsx'
-import { ThemeClassNames } from '@docusaurus/theme-common'
-import { useDoc } from '@docusaurus/theme-common/internal'
-import LastUpdated from '@theme/LastUpdated'
-import EditThisPage from '@theme/EditThisPage'
-import TagsListInline from '@theme/TagsListInline'
-import styles from './styles.module.css'
-import Feedback from '../../../../docs/components/Feedback'
-function TagsRow(props) {
-  return (
-    <div className={clsx(ThemeClassNames.docs.docFooterTagsRow, 'row margin-bottom--sm')}>
-      <div className="col">
-        <TagsListInline {...props} />
-      </div>
-    </div>
-  )
-}
-function EditMetaRow({ editUrl, lastUpdatedAt, lastUpdatedBy, formattedLastUpdatedAt }) {
-  return (
-    <div className={clsx(ThemeClassNames.docs.docFooterEditMetaRow, 'row')}>
-      <div className="col">{editUrl && <EditThisPage editUrl={editUrl} />}</div>
+import React from 'react';
+import PropTypes from 'prop-types';
+import clsx from 'clsx';
+import { ThemeClassNames } from '@docusaurus/theme-common';
 
-      <div className={clsx('col', styles.lastUpdated)}>
-        {(lastUpdatedAt || lastUpdatedBy) && (
-          <LastUpdated
-            lastUpdatedAt={lastUpdatedAt}
-            formattedLastUpdatedAt={formattedLastUpdatedAt}
-            lastUpdatedBy={lastUpdatedBy}
-          />
-        )}
-      </div>
-    </div>
-  )
-}
-export default function DocItemFooter() {
-  const { metadata } = useDoc()
-  const { editUrl, lastUpdatedAt, formattedLastUpdatedAt, lastUpdatedBy, tags } = metadata
-  const canDisplayTagsRow = tags.length > 0
-  const canDisplayEditMetaRow = !!(editUrl || lastUpdatedAt || lastUpdatedBy)
-  const canDisplayFooter = canDisplayTagsRow || canDisplayEditMetaRow
-  if (!canDisplayFooter) {
-    return null
-  }
+import { useDoc } from '@docusaurus/theme-common/internal';
+import LastUpdated from '@theme/LastUpdated';
+import TagsListInline from '@theme/TagsListInline';
+
+import styles from './styles.module.css';
+
+function TagsRow({tags}) {
   return (
-    <>
-      <Feedback path={metadata.editUrl} />
-      <footer className={clsx(ThemeClassNames.docs.docFooter, 'docusaurus-mt-lg')}>
-        {canDisplayTagsRow && <TagsRow tags={tags} />}
-        {canDisplayEditMetaRow && (
-          <EditMetaRow
-            editUrl={editUrl}
-            lastUpdatedAt={lastUpdatedAt}
-            lastUpdatedBy={lastUpdatedBy}
-            formattedLastUpdatedAt={formattedLastUpdatedAt}
-          />
-        )}
-      </footer>
-    </>
-  )
+    <section className={ThemeClassNames.docs.docFooterTagsRow}>
+     <TagsListInline tags={tags} />
+    </section>
+  );
 }
+
+function EditMetaRow({lastUpdatedAt, lastUpdatedBy}) {
+  return (
+    <header className={styles.lastUpdated}>
+      <LastUpdated 
+        lastUpdatedAt={lastUpdatedAt}
+        lastUpdatedBy={lastUpdatedBy}
+      />
+    </header>
+  );
+}
+
+export default function DocItemFooter({metadata}) {
+
+  const {
+    lastUpdatedAt, 
+    formattedLastUpdatedAt,
+    lastUpdatedBy,
+    tags 
+  } = metadata;
+
+  const canDisplayTagsRow = tags.length > 0;
+  const canDisplayEditMetaRow = !!(lastUpdatedAt || lastUpdatedBy);
+  const canDisplayFooter = canDisplayTagsRow || canDisplayEditMetaRow;
+
+  if (!canDisplayFooter) {
+    return null;
+  }
+
+  return (
+    <footer className={ThemeClassNames.docs.docFooter}>
+    
+      {canDisplayTagsRow && 
+        <TagsRow tags={tags} />
+      }
+
+      {canDisplayEditMetaRow &&
+        <EditMetaRow
+          lastUpdatedAt={lastUpdatedAt}
+          lastUpdatedBy={lastUpdatedBy}
+        />
+      }
+
+    </footer>
+  );
+
+}
+
+DocItemFooter.propTypes = {
+  metadata: PropTypes.shape({
+    lastUpdatedAt: PropTypes.string,
+    formattedLastUpdatedAt: PropTypes.string,
+    lastUpdatedBy: PropTypes.string,
+    tags: PropTypes.array
+  }).isRequired
+};
