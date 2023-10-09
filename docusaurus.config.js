@@ -8,7 +8,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github')
 const config = {
   title: 'WalletConnect Docs',
   tagline: 'WalletConnect is an open protocol to communicate securely between Dapps and Wallets.',
-  url: 'https://docs.walletconnect.com/',
+  url: 'https://docs.evereth.net/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
@@ -20,7 +20,7 @@ const config = {
     {
       src: 'https://plausible.io/js/plausible.js',
       defer: true,
-      'data-domain': 'docs.walletconnect.com'
+      'data-domain': 'docs.evereth.net'
     }
   ],
   presets: [
@@ -64,7 +64,7 @@ const config = {
               '<a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/walletconnect-logo-white.svg#dark-mode-only"  alt="WalletConnect Logo"><img src="/img/walletconnect-logo-black.svg#light-mode-only"  alt="WalletConnect Logo"></div>WalletConnect<span>Docs<span></a>'
           },
           {
-            href: 'https://github.com/walletconnect/',
+            href: 'https://github.com/EverETHcode/',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository'
@@ -95,15 +95,15 @@ const config = {
             items: [
               {
                 label: 'GitHub Discussions',
-                href: 'https://github.com/WalletConnect/walletconnect-monorepo/discussions'
+                href: 'https://github.com/EverETHcode/'
               },
               {
-                label: 'Discord',
-                href: 'https://discord.com/invite/kdTQHQ6AFQ'
+                label: 'Telegram',
+                href: 'https://t.me/EverETHofficial/'
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/walletconnect'
+                href: 'https://twitter.com/EverETHofficial/'
               }
             ]
           },
@@ -116,12 +116,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/walletconnect/walletconnect-docs/'
+                href: 'https://github.com/EverETHcode/'
               }
             ]
           }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} WalletConnect, Inc.`
+        copyright: `Copyright © ${new Date().getFullYear()} EverETH.`
       },
       colorMode: {
         defaultMode: 'dark',
