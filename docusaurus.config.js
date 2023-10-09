@@ -33,7 +33,7 @@ const config = {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           showLastUpdateTime: true,
-          editUrl: null,
+          editUrl: 'https://github.com/EverETHcode/doc/',
           remarkPlugins: [
             [
               require('@docusaurus/remark-plugin-npm2yarn'),
