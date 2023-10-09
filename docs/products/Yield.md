@@ -1,5 +1,9 @@
 # EverETH Yield (Under Development)
 
+dApp currently under development.
+
+<hr className="home__divider" />
+
 ## Overview
 
 EverETH Yield is a yield farming optimizer and aggregator for maximizing returns on crypto assets. It allows users to earn yields from lending, liquidity pools, and other DeFi protocols in an optimized way. 

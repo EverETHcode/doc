@@ -1,5 +1,9 @@
 # EverETH Stake (Under Development)
 
+dApp currently under development.
+
+<hr className="home__divider" />
+
 ## Overview
 
 EverETH Stake is a liquid staking protocol that allows ETH holders to earn staking rewards without locking up their ETH. Users deposit ETH into EverETH Stake smart contracts, which issues them stEETH (staked EETH) tokens on a 1:1 basis. The staked ETH is then delegated to Ethereum consensus layer validators to earn staking rewards.
