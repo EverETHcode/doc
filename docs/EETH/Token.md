@@ -3,8 +3,9 @@
 - ERC-20 token on the Ethereum blockchain
 - Used for governance voting, transfers, and access to dividends
 - Total supply: 1 billion
-- Distribution: TBA
+- Distribution:
 
+![Token Distribution](.static/assets/token-distribution.png)
 
 Dividend Mechanism
 
