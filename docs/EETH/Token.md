@@ -5,7 +5,7 @@
 - Total supply: 1 billion
 - Distribution:
 
-![Token Distribution](.static/assets/token-distribution.png)
+![Token Distribution](.static/assets/create-push-url.png)
 
 Dividend Mechanism
 
