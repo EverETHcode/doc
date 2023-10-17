@@ -4,7 +4,7 @@ EverETH Reflect is an exciting token that pays holders rewards in ETH! It accomp
 
 https://evereth.app/
 
-<hr className="home__divider" />
+![EverETH Graphic](/assets/reflect.gif)
 
 ### How It Works
 
