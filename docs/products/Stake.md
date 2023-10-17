@@ -2,7 +2,7 @@
 
 dApp currently under development.
 
-<hr className="home__divider" />
+![Stake animation](/assets/stake-animation.gif)
 
 ## Overview
 
@@ -19,6 +19,8 @@ stEETH tokens can be freely transferred, traded, or used in DeFi protocols - unl
 - EverETH nodes withdraw rewards and add to staked ETH deposits 
 - stEETH/ETH exchange rate rises, backed by staking yield
 - Users can burn stEETH to redeem ETH + accrued rewards at any time
+
+![Stake dashboard](/assets/stake.png)
 
 ## User Guide
 
