@@ -35,4 +35,4 @@ Examples:
 
 The loyalty airdrop rewards long-term holders and gives incentive to continue holding. The longer you hold, the higher the rewards.
 
-The percentages are subject to change. The airdrop program can be adjusted or canceled by EverETH DAO by vote.
+Disclaimer: The percentages are subject to change. The airdrop program can be adjusted or cancelled by EverETH DAO by vote.
