@@ -9,10 +9,10 @@
 
 Loyalty Periods:  
 
-Day 1 - 90: 0.03% daily
-Day 91 - 180: 0.0375% daily  
-Day 181 - 270: 0.046875% daily
-Day 271 - 360: 0.05859375% daily
+- Day 1 to 90: 0.03% daily
+- Day 91 to 180: 0.0375% daily  
+- Day 181 to 270: 0.046875% daily
+- Day 271 to 360: 0.05859375% daily
 
 The longer you hold, the higher the loyalty rewards rate increases over time. This incentivizes long-term holding and rewards loyal holders. 
 
