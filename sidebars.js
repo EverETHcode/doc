@@ -29,7 +29,7 @@ module.exports = {
       label: 'EETH',
       className: 'menu_outer_list',
       collapsible: false,
-      items: ['EETH/Token', 'EETH/Presale', 'EETH/Loyalty Airdrop']
+      items: ['EETH/Token', 'EETH/Presale', 'EETH/Loyalty Rewards']
     },
   ]
 }
