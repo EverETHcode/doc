@@ -1,6 +1,4 @@
-## [EverETH Stake](https://app.evereth.net/stake){:target="_blank"}
-
-<iframe width="1024" height="576" src="https://www.youtube.com/embed/MSs3Fe71nUs?si=_X1vcFkUc27LVTsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="800" height="300" src="https://www.youtube.com/embed/MSs3Fe71nUs?si=_X1vcFkUc27LVTsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Introduction
