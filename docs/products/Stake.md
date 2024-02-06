@@ -1,8 +1,6 @@
-## EverETH Stake
+## [EverETH Stake](https://app.evereth.net/stake){:target="_blank"}
 
-https://app.evereth.net/stake
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/MSs3Fe71nUs?si=_X1vcFkUc27LVTsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/MSs3Fe71nUs?si=_X1vcFkUc27LVTsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Introduction
@@ -10,7 +8,7 @@ https://app.evereth.net/stake
 EverETH Stake emerges as a decentralized protocol within the Ethereum ecosystem, bringing the innovative capabilities of liquid staking to users seeking seamless participation in blockchain networks. EverETH Stake enables users to stake their Ethereum assets efficiently, unlocking liquidity and participation in various decentralized financial activities.
 EverETH Stake is a liquid staking protocol that allows ETH holders to earn staking rewards without locking up their ETH. Users deposit ETH into EverETH Stake smart contracts, which issues them stkETH (staked ETH) tokens on a 1:1 basis. The staked ETH is then delegated to Ethereum consensus layer validators to earn staking rewards.
 
-stkEETH tokens will be freely transferred, traded, or used in DeFi protocols - unlocking the liquidity of staked ETH. stkEETH balances are redeemable for ETH at any time. The stkETH exchange rate vs ETH rises slowly over time as staking rewards accrue. 
+stkETH tokens will be freely transferred, traded, or used in DeFi protocols - unlocking the liquidity of staked ETH. stkETH balances are redeemable for ETH at any time. The stkETH exchange rate vs ETH rises slowly over time as staking rewards accrue. 
 
 ## Architecture
 
