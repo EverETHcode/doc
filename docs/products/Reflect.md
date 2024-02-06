@@ -46,7 +46,7 @@ Therefore, the total tax is calculated by adding these three fees together: tota
 
 Please note that these values have been changed over the time but now are permanent, and they can not be adjusted by the contract owner anymore (since ownership renounced on Nov-23-2021 09:49:31 PM +UTC).
 
-## Important aspects
+## **EverETH Reflect - Risks and Considerations**
 
 While EverETH Reflect presents an innovative approach to decentralized finance (DeFi) with its automatic ETH rewards system, it's crucial for users to be aware of potential risks associated with the protocol. Here are some notable risks:
 
