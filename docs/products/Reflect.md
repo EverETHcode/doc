@@ -1,6 +1,6 @@
-EverETH Reflect is an BEP-20 token that pays holders rewards in ETH! It accomplishes this through a transaction fee reward system.
+EverETH Reflect is a BEP-20 token that pays holders rewards in ETH. It accomplishes this through a transaction fee reward system.
 
-![EverETH Graphic](/assets/reflect.gif)
+![EverETH Graphic](/assets/reflect.png)
 
 ### How It Works
 
