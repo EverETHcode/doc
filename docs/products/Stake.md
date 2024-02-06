@@ -1,6 +1,6 @@
 ## [EverETH Stake](https://app.evereth.net/stake){:target="_blank"}
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/MSs3Fe71nUs?si=_X1vcFkUc27LVTsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="1024" height="576" src="https://www.youtube.com/embed/MSs3Fe71nUs?si=_X1vcFkUc27LVTsM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Introduction
@@ -55,15 +55,13 @@ EverETH Stake applies a 5% fee which is split between node operators and the DAO
 The fee is subject to change at any time by the EverETH DAO proposals.
 
 
-![Stake animation](/assets/stake-animation.gif)
-
 ### Development
 
 EverETH Stake smart contracts are audited and designed to integrate with the Ethereum Beacon Chain. The system is decentralized across independent node operators. An open source frontend and analytics dashboard are available. 
 
 Developers can build on top of EverETH Stake by integrating the stkETH token into their own dApps and DeFi protocols.
 
-#### Important aspects
+## Important aspects
 
 1. Security details: Our smart contract are pending for being audited. All our products are currently in the BETA stage.
 
