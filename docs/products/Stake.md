@@ -59,7 +59,7 @@ EverETH Stake smart contracts are audited and designed to integrate with the Eth
 
 Developers can build on top of EverETH Stake by integrating the stkETH token into their own dApps and DeFi protocols.
 
-## Important aspects
+## **EverETH Stake - Risks and Considerations**
 
 1. Security details: Our smart contract are pending for being audited. All our products are currently in the BETA stage.
 
