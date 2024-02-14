@@ -2,8 +2,6 @@
 
 EverETH Reflect is a BEP-20 token that pays holders rewards in ETH. It accomplishes this through a transaction fee reward system.
 
-![EverETH Graphic](/assets/reflect.png)
-
 ### How It Works
 
 - BEP20 token traded on PancakeSwap
@@ -47,6 +45,8 @@ Ecosystem Development Fee: This fee is set to 1% ("BuyBackFee") of the transacti
 Therefore, the total tax is calculated by adding these three fees together: totalFees = EthereumRewardsFee + liquidityFee + BuyBackFee (Ecosystem Development). The total tax for every transaction made resulting as 12%.
 
 Please note that these values have been changed over the time but now are permanent, and they can not be adjusted by the contract owner anymore (since ownership renounced on Nov-23-2021 09:49:31 PM +UTC).
+
+![EverETH Graphic](/assets/reflect.png)
 
 ## **EverETH Reflect - Risks and Considerations**
 
