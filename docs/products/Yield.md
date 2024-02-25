@@ -119,11 +119,7 @@ While EverETH Yield offers exciting opportunities for decentralized finance (DeF
    - **Risk:** Low liquidity in certain pools may impact trading and price accuracy.
    - **Mitigation:** Be aware of liquidity conditions, especially when trading or providing liquidity in less popular pools.
 
-### 8. Flash Loan Risks:
-   - **Risk:** Flash loans involve uncollateralized borrowing within a single transaction block, carrying risks of liquidation and complex financial strategies.
-   - **Mitigation:** Understand the risks associated with flash loans and exercise caution when utilizing this feature.
-
-### 9. External Market Influences:
+### 8. External Market Influences:
    - **Risk:** External factors such as global economic conditions, technological changes, or regulatory developments can impact the cryptocurrency market and EverETH Yield.
    - **Mitigation:** Stay informed about broader market trends and consider external influences when making decisions.
 
