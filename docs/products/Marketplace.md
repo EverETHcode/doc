@@ -10,15 +10,12 @@ EverETH Marketplace is a decentralized digital asset marketplace where users can
 
 The marketplace connects buyers and sellers directly via non-custodial peer-to-peer trades. Assets are represented as ERC-20/721/1155 tokens and transactions use ETH or stablecoins. 
 
-A 2.5% fee is charged on transactions, which gets used for EETH dividends - providing value to EETH shareholders.
 
 ## Architecture
 
 - Sellers list ERC tokens representing their digital assets
 - Buyers browse listings and place orders via the marketplace interface 
 - Orders match two parties directly into an atomic swap
-- 2.5% of the trade value goes to the fee pool
-- EETH tokens are bought back from the open market and burned
 - NFT trades execute direct token transfers
 - ETH and stables handle payment
 - User balances live on their own wallets
@@ -39,9 +36,34 @@ Sellers have full control over the sale price and process.
 
 ### Fees
 
-A 2.5% transaction fee is charged on all trades. This covers gas/operating costs and the EETH dividends. 
+**Listing fee:** 0%
 
-The fee is taken from the payment - there are no upfront listing fees. Sellers receive 97.5% of the sale price.
+**Sale fee:** 1.5% charged to sellers on secondary sales, taken upon successful sale.
+
+A secondary sale refers to any sale of an NFT after the initial minting and purchase from the creator. This includes:
+
+- Person A mints an NFT and sells it to Person B - Primary Sale
+- Person B later resells the NFT to Person C - Secondary Sale
+
+On secondary sales, EverETH Marketplace charges a 1.5% transaction fee to the seller. This fee does not apply on the primary sale from the original minter to the first buyer.
+
+Distinguish between primary and secondary sales:
+
+- No fees for creators minting and selling their works initially 
+- Lower barriers for creators entering the market
+- EverETH earns revenue from secondary trading activity between buyers and collectors
+
+So in summary:
+
+Primary Sale:
+- From minter to first buyer
+- No EverETH fees 
+
+Secondary Sale: 
+- Any resale of the NFT after the first purchase
+- 1.5% transaction fee applies to seller
+
+This structure aims to balance enabling creators while collecting some value from secondary market activity on their platform.
 
 ### Wallets & Assets
 
@@ -51,8 +73,3 @@ Supported wallet options include MetaMask, WalletConnect, Coinbase Wallet, etc.
 
 Assets stay under a user's control until the moment of trade.
 
-## Development
-
-EverETH Marketplace uses open source components for its order book, asset listings, peer-to-peer swaps, and ERC20/721/1155 integrations.
-
-Developers can build custom interfaces, assets, analytics, and workflows on top of the marketplace architecture.
