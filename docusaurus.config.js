@@ -150,7 +150,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          '🎉 EverETH presale is now live. <a rel="noopener noreferrer" href="/EETH/Presale">Learn more</a>. 🎉',
+          '🎉 EverETH Dashboard V2 BETA is now live. <a rel="noopener noreferrer" href="https://app.evereth.net/" target="_blank">Launch App</a>. 🎉',
         backgroundColor: '#3182ce',
         textColor: '#fff',
         isCloseable: true
