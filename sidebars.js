@@ -29,7 +29,14 @@ module.exports = {
       label: 'EETH',
       className: 'menu_outer_list',
       collapsible: false,
-      items: ['EETH/Token', 'EETH/Presale', 'EETH/Loyalty Rewards']
+      items: ['EETH/Token', 'EETH/Presale']
+    },
+    {
+      type: 'category',
+      label: 'Community',
+      className: 'menu_outer_list',
+      collapsible: false,
+      items: ['Community/EverBuddies']
     },
   ]
 }
