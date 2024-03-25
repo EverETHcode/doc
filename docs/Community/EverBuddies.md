@@ -1,4 +1,4 @@
-EverBuddies: The Driving Force Behind EverETH 💎
+The Driving Force Behind EverETH 💎
 
 ![EverBuddies](/assets/everbuddies.png)
 
@@ -34,5 +34,5 @@ By meeting these criteria, individuals can apply to become part of the exclusive
 Join the EverBuddies today and be at the forefront of the EverETH revolution, shaping the future of this innovative project alongside a passionate community of like-minded individuals.
 
 
-Registrations are now open: https://forms.gle/E9oP5j51vq84mwS27
+Registration is now open: https://forms.gle/E9oP5j51vq84mwS27
 
